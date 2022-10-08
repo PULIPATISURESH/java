@@ -25,7 +25,7 @@ public class DAY5COMMONELEMENTSINTWOARRAYOFPOSITIVEINTEGERS
                 for (int j = 0; j < b1; j++) {
                     if (a[i] > 0 && b[j] > 0) {
                         if (a[i] == b[j])
-                            System.out.print(a[i] + " ");
+                            System.out.print("common elements "+a[i] + " ");
                     }
                     else
                         throw new Exception();
